@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="org.example.task_tracker" version="1.0.0">
+    <profile name="wearable"/>
+    <ui-application appid="org.example.task_tracker" exec="task_tracker" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>Task Tracker</label>
+        <icon>task_tracker.png</icon>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/mediastorage</privilege>
+    </privileges>
+</manifest>

@@ -1,0 +1,9 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+
+edctool = edje_cc
+edcflags = -id "D:/Tizen/Task_Tracker/edje/images" -id "D:/tizen-studio/tools/edc-editor/share/enventor/images" -sd "D:/Tizen/Task_Tracker/edje/sounds" -sd "D:/tizen-studio/tools/edc-editor/share/enventor/sounds" -fd "D:/Tizen/Task_Tracker/edje/fonts" -fd "D:/tizen-studio/tools/edc-editor/share/enventor/fonts"
+
+build res/edje/setting.edj: build_edc ../res/edje/setting.edc 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="2.3.1" package="org.example.task_tracker_watch" version="1.0.0">
+    <author email="s.a.lisitsyn@gmail.com">Sergey Lisitsyn</author>
+    <profile name="wearable"/>
+    <watch-application ambient-support="true" appid="org.example.task_tracker_watch" exec="task_tracker_watch">
+        <label>Task Tracker Watch</label>
+        <icon>task_tracker_watch.png</icon>
+    </watch-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/mediastorage</privilege>
+        <privilege>http://tizen.org/privilege/network.get</privilege>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+        <privilege>http://tizen.org/privilege/internet</privilege>
+        <privilege>http://tizen.org/privilege/alarm.set</privilege>
+    </privileges>
+</manifest>
